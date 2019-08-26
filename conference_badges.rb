@@ -3,12 +3,8 @@ def badge_maker(name)
 end 
 
 
-def batch_badge_creator(speakers)
-  badges = []
-  speakers.each do |name|
-    badges << batch_badge_creator(name)
-  end 
-  badges 
+def batch_badge_creator(speakers_lineup)
+ speakers_lineup.collect {|speaker| badge_maker(speaker)}
 end
 speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
