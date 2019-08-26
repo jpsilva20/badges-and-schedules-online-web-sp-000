@@ -1,2 +1,2 @@
 badge_maker("Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz")
-badge_maker.each do 
+badge_maker.each do |name|
