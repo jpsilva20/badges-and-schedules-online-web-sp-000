@@ -6,7 +6,7 @@ end
 def batch_badge_creator(speakers_lineup)
  speakers_lineup.collect {|speaker| badge_maker(speaker)}
 end
-speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
 
 def assign_rooms(speakers)
   speakers.each_with_index.map {|speaker, index| "Hello, #{speaker}! You'll be assigned to room #{index+1}!"}
