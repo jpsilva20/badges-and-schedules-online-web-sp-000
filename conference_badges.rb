@@ -1,5 +1,5 @@
 def badge_maker(speaker)
-  "Hello, my name is #{name}."
+  "Hello, my name is #{speaker}."
 end 
 
 speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
